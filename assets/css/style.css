@@ -6,13 +6,15 @@ body {
 background-color: #ffffff;
 overflow: auto;
 max-width: 960px;
+margin-top: 30px;
+border: solid #dddddd;
 }
-
-
 
 .About {
     color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
 }
 
 a {
@@ -22,15 +24,13 @@ a {
 
 p {
     color: #777777;
-    line-height: 1.5;
+    margin: 0px 30px 20px 30px;
 }
 
 #raindrop {
     clip-path: circle();
     shape-outside: circle();
-    float: left;
-    margin-right: 50px;
-    margin-bottom: 20px;
+    margin: 0px 0px 20px 30px;
 }
 
 form {
@@ -46,21 +46,7 @@ form {
 .contact {
     color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.nombre {
-    margin: 0px 30px;
-    width: 890px;
-}
-
-.email {
-    margin: 0px 30px;
-    width: 890px;
-}
-
-textarea {
-    margin: 0px 30px;
-    width: 890px;
+    text-align: center;
 }
 
 .submit {
@@ -75,6 +61,7 @@ textarea {
 .portfolio {
     color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .wrapper {
@@ -114,8 +101,6 @@ textarea {
 
 a:hover {
     cursor: pointer;
-    color: slateblue;
-    opacity: 0.8;
 }
 
 button:hover {
