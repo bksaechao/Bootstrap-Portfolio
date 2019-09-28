@@ -1,5 +1,8 @@
 body {
     background-image: url("../../images/playstation-pattern.png");
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container {
@@ -118,15 +121,22 @@ form {
 
 a:hover {
     cursor: pointer;
+    color: burlywood;
+    opacity: 0.8;
+}
+
+a:active {
+    color: snow;
 }
 
 button:hover {
     cursor: pointer;
-    color: slateblue;
-    opacity: 0.8;
 }
 
-button:active {
-    color: aliceblue;
-    background-color: darkorchid;
+footer {
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    height: 30px;
+    margin-top: auto;
 }
