@@ -64,57 +64,56 @@ form {
     color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
-    text-align: center;
 }
 
 .scratch {
-    position: absolute;
-    padding: 5px 0px;
-    left: 0;
+    padding: 20px;
     background-color: #4aaaa5;
     color: #ffffff;
-    width: fit-content;
     text-align: center;
+    left: 0;
+    width: 100%;
+    bottom: 8%;
 }
 
 .food {
-    position: absolute;
-    padding: 5px 0px;
+    padding: 20px;
     left: 0;
     background-color: #4aaaa5;
     color: #ffffff;
-    width: fit-content;
     text-align: center;
+    width: 100%;
+    bottom: 8%;
 }
 
 .space {
-    position: absolute;
-    padding: 5px 0px;
+    padding: 20px;
     left: 0;
     background-color: #4aaaa5;
     color: #ffffff;
-    width: fit-content;
     text-align: center;
+    width: 100%;
+    bottom: 8%;
 }
 
 .music {
-    position: absolute;
-    padding: 5px 0px;
+    padding: 20px;
     left: 0;
     background-color: #4aaaa5;
     color: #ffffff;
-    width: fit-content;
     text-align: center;
+    width: 100%;
+    bottom: 8%;
 }
 
 .art {
-    position: absolute;
-    padding: 5px 0px;
+    padding: 20px;
     left: 0;
     background-color: #4aaaa5;
     color: #ffffff;
-    width: fit-content;
     text-align: center;
+    width: 100%;
+    bottom: 8%;
 }
 
 a:hover {
